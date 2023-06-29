@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>SISTEMA VALIDADOR DE RUT</h1>
+    <br>
+    <form>
+        <label for="rut">Ingrese RUT sin digito verificador: </label>
+        <input type="text" name="rut" id="rut" required>
+        <br>
+        
+        <input type="button" onclick="Calcular()" value="Calcular Rut">
+
+    </form>
+    <br>
+    <hr>
+    <br>
+    <label for="validacion">El digitito verificador es: </label>
+    <div id="validacion"><h3></h3></div>
+    
+    <script language="javascript" src="JS/validador.js"></script>
+</body>
+</html>
